@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    th, td {
+        padding: 5px;
+    }
+    label {
+        font-weight: normal;
+    }
+    button {
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 75px;
+        font-weight: bold;
+        background-color: #b5b5b5;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: #d5d5d5;
+    }
+    button:active {
+        background-color: #808080;
+    }
+</style>
+
+<table border="1" cellspacing="0" style="margin-top:20px" width="500px">
+    <tr>
+        <th>Mã nhân viên:</th>
+        <td><input /></td>
+    </tr>
+    <tr>
+        <th>Họ tên:</th>
+        <td><input /></td>
+    </tr>
+    <tr>
+        <th>Ngày sinh:</th>
+        <td><input /></td>
+    </tr>
+    <tr>
+        <th>Giới tính:</th>
+        <td>
+            <input type="radio" name="gt" id="nam" checked />
+            <label for="nam">Nam</label>
+            <input type="radio" name="gt" id="nu" />
+            <label for="nu">Nữ</label>
+        </td>
+    </tr>
+    <tr>
+        <th>Chức vụ:</th>
+        <td>
+            <select>
+                <option selected>Trưởng phòng</option>
+                <option>Nhân viên</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th>Ngoại ngữ:</th>
+        <td>
+            <input type="checkbox" name="nn" id="anh" checked />
+            <label for="anh">Anh</label>
+            <input type="checkbox" name="nn" id="phap" />
+            <label for="phap">Pháp</label>
+            <input type="checkbox" name="nn" id="nga" />
+            <label for="nga">Nga</label>
+        </td>
+    </tr>
+    <tr>
+        <th>Mã nhân viên:</th>
+        <td><input /></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align:center;">
+            <button>LƯU</button>
+            <button>XÓA</button>
+        </td>
+    </tr>
+</table>
+
