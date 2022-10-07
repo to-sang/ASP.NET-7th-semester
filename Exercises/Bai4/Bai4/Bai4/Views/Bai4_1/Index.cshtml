@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<style>
+    td, th {
+        padding: 10px;
+    }
+    label {
+        font-weight: normal;
+        margin-right: 10px;
+    }
+</style>
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>nhập a:</td>
+            <td> <input name="aa" /> </td>
+        </tr>
+        <tr>
+            <td>nhập b:</td>
+            <td> <input name="bb" /> </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="radio" name="Cal" id="add" value="add" checked />
+                <label for="add">Cộng</label>
+                <input type="radio" name="Cal" id="sub" value="sub" />
+                <label for="sub">Trừ</label>
+                <input type="radio" name="Cal" id="mul" value="mul" />
+                <label for="mul">Nhân</label>
+                <input type="radio" name="Cal" id="div" value="div" />
+                <label for="div">Chia</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="calculate" />
+            </td>
+        </tr>
+        <tr>
+            <td>@ViewBag.Result</td>
+        </tr>
+    </table>
+}  
