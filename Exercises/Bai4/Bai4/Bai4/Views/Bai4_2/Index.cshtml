@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    th, td {
+        padding: 5px;
+    }
+
+    label {
+        font-weight: normal;
+    }
+</style>
+
+@using (Html.BeginForm("Result", "Bai4_2", FormMethod.Post))
+{
+    <table border="1" cellspacing="0" width="500px" style="margin-top: 20px;">
+        <tr>
+            <td colspan="3" style="font-weight: bold; text-align: center;">TÍNH TIỀN ĐIỆN</td>
+        </tr>
+        <tr>
+            <td>Họ tên chủ hộ:</td>
+            <td><input name="name"/></td>
+            <td>
+                <input type="checkbox" id="hut" name="ut" />
+                <label for="hut">Hộ ưu tiên</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Loại điện tiêu thụ:</td>
+            <td colspan="2">
+                <select name="type">
+                    <option value="sh">Sinh hoạt</option>
+                    <option value="kd">Kinh doanh</option>
+                    <option value="sx">Sản xuất</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Vào chỉ số cũ:</td>
+            <td colspan="2">
+                <input name="vaocu" />
+                &nbsp; KW
+            </td>
+        </tr>
+        <tr>
+            <td>Vào chỉ số mới:</td>
+            <td colspan="2">
+                <input name="vaomoi" />
+                &nbsp; KW
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;">
+                <input type="submit" value="TÍNH" />
+            </td>
+        </tr>
+    </table>
+}
