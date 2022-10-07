@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<table border="1" cellspacing="0" width="500px">
+    @for (int i = 0; i < 3; i++)
+    {
+        <tr>
+            @for (int j = 1; j <= 4; j++)
+            {
+                <td>Sản phẩm @(i * 4 + j)</td>
+            }
+        </tr>
+    }
+</table>
+
