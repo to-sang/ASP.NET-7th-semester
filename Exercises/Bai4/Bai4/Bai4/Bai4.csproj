@@ -123,6 +123,7 @@
     <Compile Include="Controllers\Bai4_1Controller.cs" />
     <Compile Include="Controllers\Bai4_2Controller.cs" />
     <Compile Include="Controllers\Bai4_3Controller.cs" />
+    <Compile Include="Controllers\Bai4_4Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -170,6 +171,8 @@
     <Content Include="Views\Bai4_2\Result.cshtml" />
     <Content Include="Views\Bai4_3\Index.cshtml" />
     <Content Include="Views\Bai4_3\Result.cshtml" />
+    <Content Include="Views\Bai4_4\Index.cshtml" />
+    <Content Include="Views\Bai4_4\Result.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

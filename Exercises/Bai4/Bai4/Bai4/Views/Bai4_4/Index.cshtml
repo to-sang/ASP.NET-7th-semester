@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    th, td {
+        padding: 5px;
+    }
+
+    label {
+        font-weight: normal;
+    }
+    button {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+</style>
+
+@using (Html.BeginForm("Result", "Bai4_4", FormMethod.Post))
+{
+    <table border="1" cellspacing="0" width="500px" style="margin-top: 20px;">
+        <tr>
+            <td>Mã NV:</td>
+            <td><input name="manv" /></td>
+        </tr>
+        <tr>
+            <td>Bậc lương:</td>
+            <td><input name="bl" /></td>
+        </tr>
+        <tr>
+            <td>Ngày công:</td>
+            <td><input name="nc" /></td>
+        </tr>
+        <tr>
+            <td>Chức vụ:</td>
+            <td>
+                <select name="cv">
+                    <option value="tp" selected>Trưởng phòng</option>
+                    <option value="pp">Phó phòng</option>
+                    <option value="nv">Nhân viên</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <input type="radio" id="nam" name="gt" value="nam" checked />
+                <label for="nam">Nam</label>
+                &nbsp;
+                <input type="radio" id="nu" name="gt" value="nu" />
+                <label for="nu">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Ngoại ngữ:</td>
+            <td>
+                <input type="checkbox" name="anh" value="anh" checked />
+                <label>Anh</label>
+                &nbsp;
+                <input type="checkbox" name="phap" value="phap" />
+                <label>Pháp</label>
+                &nbsp;
+                <input type="checkbox" name="nga" value="nga" />
+                <label>Nga</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Tiền lĩnh:</td>
+            <td><input name="tien" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" value="TÍNH" />
+                <input type="reset" value="XÓA" />
+            </td>
+        </tr>
+    </table>
+}

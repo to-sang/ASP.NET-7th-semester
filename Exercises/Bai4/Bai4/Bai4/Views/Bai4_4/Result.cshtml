@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Result";
+}
+
+<style>
+    th, td {
+        padding: 5px;
+    }
+</style>
+
+<table border="1" cellspacing="0" width="500px" style="margin-top: 20px;">
+    <tr>
+        <td>Mã NV:</td>
+        <td><input value=@ViewBag.manv readonly /></td>
+    </tr>
+    <tr>
+        <td>Có ngày công:</td>
+        <td><input value="@ViewBag.nc" readonly /></td>
+    </tr>
+    <tr>
+        <td>Tiền được lĩnh là:</td>
+        <td><input value="@ViewBag.tien" readonly /></td>
+    </tr>
+</table>
