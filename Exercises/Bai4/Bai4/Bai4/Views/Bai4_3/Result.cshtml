@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Result";
+}
+
+<style>
+    th, td {
+        padding: 5px;
+    }
+</style>
+
+<table border="1" cellspacing="0" width="500px" style="margin-top: 20px;">
+    <tr>
+        <td>Họ tên thí sinh:</td>
+        <td><input value=@ViewBag.name /></td>
+    </tr>
+    <tr>
+        <td>Tổng điểm:</td>
+        <td><input value="@ViewBag.diem" /></td>
+    </tr>
+    <tr>
+        <td>Kết quả:</td>
+        <td><input value="@ViewBag.kq" /></td>
+    </tr>
+</table>
