@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Send mail";
+}
+
+<h2>Send mail</h2>
+<form method="post" name="f1" action="/bai5_2/send" >
+    From: <br /> <input type="text" name="from" value="@ViewBag.from" /> <br />
+    Password: <br /> <input type="text" name="password" value="@ViewBag.password" /> <br />
+    To: <br /> <input type="text" name="to" value="@ViewBag.to" /> <br />
+    Subject: <br /> <input type="text" name="subject" value="@ViewBag.subject" /> <br />
+    Body: <br /> <textarea name="body" rows="4" cols="50"></textarea> <br />
+    <input type="submit" value="Send" />
+</form>
