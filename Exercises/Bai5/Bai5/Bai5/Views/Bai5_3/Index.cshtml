@@ -1,7 +1,15 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Send mail with attachment";
 }
 
-<h2>Index</h2>
-
+<h2>Send mail with attachment</h2>
+<form method="post" action="/bai5_3/send" enctype="multipart/form-data">
+    From: <br /> <input type="text" name="from" /> <br />
+    Password: <br /> <input type="text" name="password" /> <br />
+    To: <br /> <input type="text" name="to" /> <br />
+    Subject: <br /> <input type="text" name="subject" /> <br />
+    Attachment: <br /> <input type="file" name="attachment" multiple /> <br />
+    Notes: <br /> <textarea name="body" rows="4" cols="50"></textarea> <br />
+    <input type="submit" value="Send" />
+</form>
