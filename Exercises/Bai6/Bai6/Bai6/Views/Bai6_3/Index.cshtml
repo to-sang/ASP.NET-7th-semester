@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<html>
+<style>
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+</style>
+<body>
+    <table border="1" width="500px">
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Today is:</td>
+            <td>@DateTime.Now.Date.ToShortDateString()</td>
+        </tr>
+        <tr>
+            <td>Hour:</td>
+            <td>@DateTime.Now.Hour</td>
+        </tr>
+        <tr>
+            <td>Minute:</td>
+            <td>@DateTime.Now.Minute</td>
+        </tr>
+        <tr>
+            <td>Second:</td>
+            <td>@DateTime.Now.Second</td>
+        </tr>
+    </table>
+</body>
+</html>
+

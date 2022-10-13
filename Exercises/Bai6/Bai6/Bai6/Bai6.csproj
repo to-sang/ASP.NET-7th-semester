@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\Bai6_1_2Controller.cs" />
+    <Compile Include="Controllers\Bai6_3Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -164,6 +165,7 @@
     <Content Include="Views\Bai6_1_2\Index.cshtml" />
     <Content Include="Views\Bai6_1_2\Admissions.cshtml" />
     <Content Include="Views\Bai6_1_2\Education.cshtml" />
+    <Content Include="Views\Bai6_3\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
