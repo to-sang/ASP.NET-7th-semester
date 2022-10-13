@@ -1,0 +1,50 @@
+﻿.topbar {
+    text-align: center;
+    padding-top: 15px;
+    height: auto;
+}
+
+    .topbar a {
+        text-decoration: none;
+        color: #9d9d9d;
+        font-size: 32px;
+    }
+
+        .topbar a:hover {
+            color: #f1f1f1
+        }
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #123;
+    overflow-x: hidden;
+    padding-top: 65px;
+}
+
+    .sidenav a {
+        padding: 6px 6px 6px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #9d9d9d;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+.rightbar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background-image: url("../Images/paper.gif");
+    background-repeat: repeat;
+    overflow-x: hidden;
+    padding-top: 20px;
+}

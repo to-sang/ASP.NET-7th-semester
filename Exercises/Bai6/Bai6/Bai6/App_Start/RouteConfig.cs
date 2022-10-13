@@ -16,7 +16,7 @@ namespace Bai6
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Bai6_1_2", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

@@ -1,0 +1,186 @@
+﻿
+@{
+    ViewBag.Title = "Đào tạo";
+}
+
+<div id="content">
+    <h1>Khung chương trình đào tạo</h1>
+
+    <h2>Thông tin về khóa học</h2>
+    <p>Tên khoa: Khoa Công nghệ thông tin</p>
+    <p>Hệ đào tạo: Đại học</p>
+    <p>Tên ngành: Công nghệ thông tin</p>
+    <p>Mã ngành: 7480201</p>
+
+
+
+    <h2>Khung chương trình</h2>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <td style="text-align: center;" rowspan="2">
+                    <div style="cursor: pointer;">
+                        STT
+                    </div>
+                </td>
+                <td style="text-align: center;" rowspan="2">
+                    Mã học phần
+                </td>
+                <td style="text-align: center;" rowspan="2">
+                    Tên học phần
+                </td>
+                <td style="text-align: center;" colspan="4">
+                    Số tín chỉ
+                </td>
+
+                <td style="text-align: center;" rowspan="2">
+                    Học kỳ
+                </td>
+                <td style="text-align: center;" rowspan="2">
+                    Kiểu học phần
+                </td>
+                <td style="text-align: center;" colspan="2">
+                    Học phần (theo mã)
+                </td>
+            </tr>
+            <tr class="kTableHeader">
+                <td style="width: 30px; text-align: center;">Tổng</td>
+                <td style="width: 30px; text-align: center;">
+                    LT
+                </td>
+                <td style="width: 30px; text-align: center;">
+                    TH/TN
+                </td>
+                <td style="width: 30px; text-align: center;">
+                    BTL/ĐA
+                </td>
+
+                <td>Tiên quyết</td>
+                <td>Học trước</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td colspan="11"><b>I. KIẾN THỨC GIÁO DỤC ĐẠI CƯƠNG</b></td></tr>
+            <tr><td> <b>I.1</b></td> <td colspan="2"><b>Ngoài khung</b></td> <td><b>25.00</b></td> <td><b></b></td> <td><b></b></td> <td><b></b></td>  <td><b></b></td>  <td><b></b></td>  <td><b></b></td> <td><b>Có tự chọn</b></td></tr>
+            <tr><td> <b>I.2</b></td> <td colspan="2"><b>Lý luận chính trị</b></td> <td><b>11.00</b></td> <td><b></b></td> <td><b></b></td> <td><b></b></td>  <td><b></b></td>  <td><b></b></td>  <td><b></b></td> <td><b>Bắt buộc</b></td></tr>
+            <tr><td> 1</td> <td>LP6010</td> <td>Triết học Mác-Lênin</td> <td>3.0</td> <td>3.00</td> <td>0.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>LP6011</td> <td>Kinh tế chính trị Mác-Lênin</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>2</td><td><b> </b></td> <td> </td> <td>LP6010</td></tr>
+            <tr><td> 3</td> <td>LP6012</td> <td>Chủ nghĩa xã hội khoa học</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td>LP6011</td></tr>
+            <tr><td> 4</td> <td>LP6013</td> <td>Lịch sử Đảng Cộng sản Việt Nam</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td>LP6011</td></tr>
+            <tr><td> 5</td> <td>LP6004</td> <td>Tư tưởng Hồ Chí Minh</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td>LP6011</td></tr>
+            <tr><td> <b>I.3</b></td> <td colspan="2"><b>Khoa học xã hội và nhân văn</b></td> <td><b>9.00</b></td> <td><b></b></td> <td><b></b></td> <td><b></b></td>  <td><b></b></td>  <td><b></b></td>  <td><b></b></td> <td><b>Có tự chọn</b></td></tr>
+            <tr><td colspan="3"><b>Kiến thức bắt buộc</b></td> <td><b>2.00</b></td> <td><b>2.00</b></td> <td><b>0.00</b></td> <td><b>0.00</b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td></tr>
+            <tr><td> 1</td> <td>1203107</td> <td>Pháp luật đại cương</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td colspan="3"><b>TcCNTT1</b></td> <td><b>2</b></td> <td><b>2</b></td> <td><b>0</b></td> <td><b>0</b></td> <td><b> </b></td> <td><b> </b></td><td><b> </b></td><td><b> </b></td></tr>
+            <tr><td> 1</td> <td>1603113</td> <td>Kinh tế học đại cương</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>2</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>1403114</td> <td>Kỹ năng giao tiếp</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>2</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>1403133</td> <td>Tâm lý học người tiêu dùng</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>2</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td colspan="3"><b>TcNN</b></td> <td><b>5</b></td> <td><b>5</b></td> <td><b>0</b></td> <td><b>0</b></td> <td><b> </b></td> <td><b> </b></td><td><b> </b></td><td><b> </b></td></tr>
+            <tr><td> 1</td> <td>1303195</td> <td>Tiếng Anh Công nghệ thông tin</td> <td>5.0</td> <td>2.67</td> <td>0.00</td> <td>2.33</td> <td>6</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>FL6297</td> <td>Tiếng Hàn</td> <td>5.0</td> <td>2.67</td> <td>0.00</td> <td>2.33</td> <td>6</td><td><b> </b></td> <td> </td> <td>FL6291</td></tr>
+            <tr><td> 3</td> <td>FL6104</td> <td>Tiếng Nhật</td> <td>5.0</td> <td>2.67</td> <td>0.00</td> <td>2.33</td> <td>6</td><td><b> </b></td> <td> </td> <td>FL6296</td></tr>
+            <tr><td> 4</td> <td>FL6105</td> <td>Tiếng Trung</td> <td>5.0</td> <td>2.67</td> <td>0.00</td> <td>2.33</td> <td>6</td><td><b> </b></td> <td> </td> <td>FL6285</td></tr>
+            <tr><td> <b>I.4</b></td> <td colspan="2"><b>Khoa học tự nhiên - Toán học - Tin học</b></td> <td><b>18.00</b></td> <td><b></b></td> <td><b></b></td> <td><b></b></td>  <td><b></b></td>  <td><b></b></td>  <td><b></b></td> <td><b>Có tự chọn</b></td></tr>
+            <tr><td colspan="3"><b>Kiến thức bắt buộc</b></td> <td><b>16.00</b></td> <td><b>16.00</b></td> <td><b>0.00</b></td> <td><b>0.00</b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td></tr>
+            <tr><td> 1</td> <td>0503143</td> <td>Nhập môn tin học</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>1003107</td> <td>Toán cao cấp 1</td> <td>3.0</td> <td>3.00</td> <td>0.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>0503170</td> <td>Kỹ thuật số</td> <td>3.0</td> <td>3.00</td> <td>0.00</td> <td>0.00</td> <td>2</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 4</td> <td>1003108</td> <td>Toán cao cấp 2A</td> <td>3.0</td> <td>3.00</td> <td>0.00</td> <td>0.00</td> <td>2</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 5</td> <td>1003110</td> <td>Vật lý</td> <td>4.0</td> <td>3.00</td> <td>1.00</td> <td>0.00</td> <td>2</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td colspan="3"><b>TcCNTT2</b></td> <td><b>2</b></td> <td><b>2</b></td> <td><b>0</b></td> <td><b>0</b></td> <td><b> </b></td> <td><b> </b></td><td><b> </b></td><td><b> </b></td></tr>
+            <tr><td> 1</td> <td>1003101</td> <td>Hàm số biến số phức</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>1003103</td> <td>Lý thuyết xác suất</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>1003105</td> <td>Phương pháp tính</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> <b>I.5</b></td> <td colspan="2"><b>Giáo dục thể chất</b></td> <td><b>4.00</b></td> <td><b></b></td> <td><b></b></td> <td><b></b></td>  <td><b></b></td>  <td><b></b></td>  <td><b></b></td> <td><b>Có tự chọn</b></td></tr>
+            <tr><td colspan="3"><b>Kiến thức bắt buộc</b></td> <td><b>4.00</b></td> <td><b>4.00</b></td> <td><b>0.00</b></td> <td><b>0.00</b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td></tr>
+            <tr><td colspan="3"><b>TcGDTC</b></td> <td><b>0</b></td> <td><b>0</b></td> <td><b>0</b></td> <td><b>0</b></td> <td><b> </b></td> <td><b> </b></td><td><b> </b></td><td><b> </b></td></tr>
+            <tr><td> 1</td> <td>0903135</td> <td>Bóng đá 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>0903136</td> <td>Bóng đá 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>0903139</td> <td>Cầu mây 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 4</td> <td>0903140</td> <td>Cầu mây 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 5</td> <td>0903137</td> <td>Đá cầu 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 6</td> <td>0903138</td> <td>Đá cầu 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 7</td> <td>0903141</td> <td>Tennis 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 8</td> <td>0903142</td> <td>Tennis 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 9</td> <td>0903113</td> <td>Aerobic 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 10</td> <td>0903117</td> <td>Bơi 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 11</td> <td>0903127</td> <td>Bóng bàn 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 12</td> <td>0903115</td> <td>Bóng chuyền 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 13</td> <td>0903129</td> <td>Bóng rổ 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 14</td> <td>0903133</td> <td>Cầu lông 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 15</td> <td>0903121</td> <td>Karate 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 16</td> <td>0903123</td> <td>Khiêu vũ 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 17</td> <td>0903125</td> <td>Pencak Silat 1</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 18</td> <td>0903114</td> <td>Aerobic 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 19</td> <td>0903118</td> <td>Bơi 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 20</td> <td>0903128</td> <td>Bóng bàn 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 21</td> <td>0903116</td> <td>Bóng chuyền 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 22</td> <td>0903130</td> <td>Bóng rổ 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 23</td> <td>0903134</td> <td>Cầu lông 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 24</td> <td>0903122</td> <td>Karate 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 25</td> <td>0903124</td> <td>Khiêu vũ 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 26</td> <td>0903126</td> <td>Pencak Silat 2</td> <td>1.0</td> <td>0.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> <b>I.6</b></td> <td colspan="2"><b>Giáo dục quốc phòng an ninh</b></td> <td><b>8.00</b></td> <td><b></b></td> <td><b></b></td> <td><b></b></td>  <td><b></b></td>  <td><b></b></td>  <td><b></b></td> <td><b>Bắt buộc</b></td></tr>
+            <tr><td> 1</td> <td>0903101</td> <td>Công tác quốc phòng, an ninh</td> <td>2.0</td> <td>2.00</td> <td>0.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>0903102</td> <td>Đường lối quân sự của Đảng</td> <td>3.0</td> <td>3.00</td> <td>0.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>0903108</td> <td>Quân sự chung và CTKT bắn súng TLAK (CKC)</td> <td>3.0</td> <td>0.00</td> <td>3.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td colspan="11"><b>II. KIẾN THỨC GIÁO DỤC CHUYÊN NGHIỆP</b></td></tr>
+            <tr><td> <b>II.1</b></td> <td colspan="2"><b>Kiến thức cơ sở</b></td> <td><b>56.00</b></td> <td><b></b></td> <td><b></b></td> <td><b></b></td>  <td><b></b></td>  <td><b></b></td>  <td><b></b></td> <td><b>Có tự chọn</b></td></tr>
+            <tr><td colspan="3"><b>Kiến thức bắt buộc</b></td> <td><b>53.00</b></td> <td><b>53.00</b></td> <td><b>0.00</b></td> <td><b>0.00</b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td></tr>
+            <tr><td> 1</td> <td>0503177</td> <td>Nhập môn lập trình máy tính</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>1</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>0503127</td> <td>Kỹ thuật lập trình</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>2</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>0503106</td> <td>Cơ sở dữ liệu</td> <td>3.0</td> <td>3.00</td> <td>0.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 4</td> <td>0503188</td> <td>Kiến trúc máy tính.</td> <td>3.0</td> <td>3.00</td> <td>0.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 5</td> <td>0503130</td> <td>Lập trình hướng đối tượng</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 6</td> <td>0503156</td> <td>Toán rời rạc</td> <td>3.0</td> <td>3.00</td> <td>0.00</td> <td>0.00</td> <td>3</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 7</td> <td>0503103</td> <td>Cấu trúc dữ liệu và giải thuật</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 8</td> <td>0503123</td> <td>Hệ quản trị cơ sở dữ liệu (SQL Server)</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 9</td> <td>0503189</td> <td>Mạng máy tính.</td> <td>3.0</td> <td>2.50</td> <td>0.50</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 10</td> <td>0503140</td> <td>Nguyên lý hệ điều hành</td> <td>3.0</td> <td>2.00</td> <td>0.00</td> <td>1.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 11</td> <td>0503178</td> <td>Phân tích và đặc tả yêu cầu phần mềm</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>4</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 12</td> <td>0503141</td> <td>Nhập môn Công nghệ phần mềm</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 13</td> <td>0503161</td> <td>Thiết kế Web</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 14</td> <td>0503190</td> <td>Trí tuệ nhân tạo.</td> <td>3.0</td> <td>3.00</td> <td>0.00</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 15</td> <td>0503116</td> <td>Đồ họa máy tính</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>6</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 16</td> <td>0503179</td> <td>Lập trình .NET</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>6</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 17</td> <td>0503180</td> <td>Tích hợp hệ thống phần mềm</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td colspan="3"><b>TcCNTT3</b></td> <td><b>3</b></td> <td><b>3</b></td> <td><b>0</b></td> <td><b>0</b></td> <td><b> </b></td> <td><b> </b></td><td><b> </b></td><td><b> </b></td></tr>
+            <tr><td> 1</td> <td>0503110</td> <td>Cơ sở lập trình nhúng</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>0503191</td> <td>Kiểm thử phần mềm.</td> <td>3.0</td> <td>2.50</td> <td>0.50</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>0503181</td> <td>Quản trị mạng trên HĐH Windows</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 4</td> <td>0503158</td> <td>Tương tác người máy</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> <b>II.2</b></td> <td colspan="2"><b>Kiến thức chuyên ngành</b></td> <td><b>29.00</b></td> <td><b></b></td> <td><b></b></td> <td><b></b></td>  <td><b></b></td>  <td><b></b></td>  <td><b></b></td> <td><b>Có tự chọn</b></td></tr>
+            <tr><td colspan="3"><b>Kiến thức bắt buộc</b></td> <td><b>20.00</b></td> <td><b>20.00</b></td> <td><b>0.00</b></td> <td><b>0.00</b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td></tr>
+            <tr><td> 1</td> <td>0503183</td> <td>Thiết kế phần mềm</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>5</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>0503193</td> <td>Đồ họa ứng dụng.</td> <td>3.0</td> <td>1.00</td> <td>1.00</td> <td>1.00</td> <td>6</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>0503195</td> <td>Lập trình Java.</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>6</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 4</td> <td>0503184</td> <td>Lập trình Web bằng PHP</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>6</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 5</td> <td>0503194</td> <td>Quản lý các dự án công nghệ thông tin.</td> <td>3.0</td> <td>2.50</td> <td>0.50</td> <td>0.00</td> <td>6</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 6</td> <td>0503192</td> <td>Công nghệ đa phương tiện.</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 7</td> <td>0503182</td> <td>Lập trình Web bằng ASP.NET</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td colspan="3"><b>TcCNTT4</b></td> <td><b>9</b></td> <td><b>9</b></td> <td><b>0</b></td> <td><b>0</b></td> <td><b> </b></td> <td><b> </b></td><td><b> </b></td><td><b> </b></td></tr>
+            <tr><td> 1</td> <td>0503107</td> <td>Cơ sở dữ liệu đa phương tiện</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>0503104</td> <td>Công nghệ thực tại ảo</td> <td>3.0</td> <td>2.00</td> <td>0.00</td> <td>1.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>0503112</td> <td>Điện toán đám mây</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 4</td> <td>0503121</td> <td>Hệ chuyên gia</td> <td>3.0</td> <td>2.00</td> <td>0.00</td> <td>1.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 5</td> <td>0503132</td> <td>Lập trình nhúng</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 6</td> <td>0503149</td> <td>Phần mềm mã nguồn mở</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 7</td> <td>0503171</td> <td>Phát triển ứng dụng Game</td> <td>3.0</td> <td>2.00</td> <td>0.00</td> <td>1.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 8</td> <td>0503185</td> <td>Quản trị mạng trên HĐH mã nguồn mở</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 9</td> <td>0503172</td> <td>Search Engine</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 10</td> <td>0503176</td> <td>Ứng dụng thuật toán</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>7</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> <b>II.3</b></td> <td colspan="2"><b>Thực tập tốt nghiệp và làm đồ án/khóa luận tốt nghiệp</b></td> <td><b>15.00</b></td> <td><b></b></td> <td><b></b></td> <td><b></b></td>  <td><b></b></td>  <td><b></b></td>  <td><b></b></td> <td><b></b></td></tr>
+            <tr><td colspan="3"><b>Kiến thức bắt buộc</b></td> <td><b>6.00</b></td> <td><b>6.00</b></td> <td><b>0.00</b></td> <td><b>0.00</b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td> <td><b> </b></td></tr>
+            <tr><td> 1</td> <td>0503197</td> <td>Đồ án/ khóa luận tốt nghiệp</td> <td>9.0</td> <td>0.00</td> <td>0.00</td> <td>9.00</td> <td>8</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>0503196</td> <td>Thực tập tốt nghiệp</td> <td>6.0</td> <td>0.00</td> <td>0.00</td> <td>6.00</td> <td>8</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td colspan="3"><b>TcTnCNTT</b></td> <td><b>9</b></td> <td><b>9</b></td> <td><b>0</b></td> <td><b>0</b></td> <td><b> </b></td> <td><b> </b></td><td><b> </b></td><td><b> </b></td></tr>
+            <tr><td> 1</td> <td>0503198</td> <td>Kho dữ liệu và các phương pháp khai phá.</td> <td>3.0</td> <td>2.00</td> <td>0.00</td> <td>1.00</td> <td>8</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 2</td> <td>0503146</td> <td>Phát triển phần mềm hướng FrameWork</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>8</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 3</td> <td>0503187</td> <td>Phát triển ứng dụng thương mại điện tử</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>8</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 4</td> <td>0503199</td> <td>Phát triển ứng dụng trên thiết bị di động.</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>8</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td> 5</td> <td>0503186</td> <td>Tối ưu hóa công cụ tìm kiếm</td> <td>3.0</td> <td>2.00</td> <td>1.00</td> <td>0.00</td> <td>8</td><td><b> </b></td> <td> </td> <td></td></tr>
+            <tr><td colspan="3"><b>Tổng số tín chỉ</b></td> <td><b>150.00</b></td> <td><b></b></td>  <td><b></b></td>   <td><b></b></td>  <td><b></b></td> <td><b></b></td> <td><b></b></td><td><b></b></td></tr>
+        </tbody>
+    </table>
+
+</div>

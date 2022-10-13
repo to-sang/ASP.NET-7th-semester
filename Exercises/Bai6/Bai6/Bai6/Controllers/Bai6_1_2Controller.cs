@@ -6,24 +6,21 @@ using System.Web.Mvc;
 
 namespace Bai6.Controllers
 {
-    public class HomeController : Controller
+    public class Bai6_1_2Controller : Controller
     {
+        // GET: Bai6_1_2
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Admissions()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Education()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }
