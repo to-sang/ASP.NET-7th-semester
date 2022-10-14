@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    table {
+        background-color: #d4b6008c;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table, td {
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid black;
+        border-left: none;
+        border-right: none;
+        padding: 5px;
+    }
+
+    button {
+        background-color: #d4b6008c;
+        border: none;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    <table border="1" width="350px">
+        <tr>
+            <td style="font-weight: bold; font-size: 24px;" colspan="2">Registration Form</td>
+        </tr>
+        <tr>
+            <td>First name</td>
+            <td>@Html.TextBox("fname")</td>
+        </tr>
+        <tr>
+            <td>Last name</td>
+            <td>@Html.TextBox("lname")</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>@Html.TextBox("email", "", new { type = "email" })</td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>@Html.Password("pwd")</td>
+        </tr>
+        <tr>
+            <td>City</td>
+            @{
+                IEnumerable<string> city = new List<string> { "Hà Nội", "Bắc Ninh", "Hà Nam", "Nam Định", "Hải Phòng" };
+            }
+            <td>@Html.DropDownList("city", new SelectList(city, city.FirstOrDefault()), "-- Select city--")</td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                @Html.RadioButton("gender", "Male", true) Male
+                @Html.RadioButton("gender", "Female") Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" name="save">Save</button>
+                <button type="reset">Cancel</button>
+            </td>
+        </tr>
+    </table>
+}
+@Html.Raw(ViewBag.content)
+
