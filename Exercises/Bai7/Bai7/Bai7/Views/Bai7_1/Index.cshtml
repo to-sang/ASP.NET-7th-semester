@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Bai7_1";
+}
+
+<style>
+    th, td {
+        padding: 5px;
+    }
+    input {
+        margin: 5px;
+    }
+</style>
+
+<div>
+    @using(Html.BeginForm())
+    {
+        <table width="300px">
+            <tr>
+                <td>Nhập số thứ 1</td>
+                <td>@Html.TextBox("so1")</td>
+            </tr>
+            <tr>
+                <td>Nhập số thứ 2</td>
+                <td>@Html.TextBox("so2")</td>
+            </tr>
+            <tr>
+                <td>Kết quả</td>
+                <td>@Html.TextBox("kq", (string) ViewBag.kq, new {@readonly="readonly"})</td>
+            </tr>
+            <tr style="text-align: center">
+                <td colspan="2">
+                    <input type="submit" name="cal" value="Cộng" />
+                    <input type="submit" name="cal" value="Trừ" />
+                    <input type="submit" name="cal" value="Nhân" />
+                    <input type="submit" name="cal" value="Chia" />
+                </td>
+            </tr>
+        </table>
+    }
+</div>
+
