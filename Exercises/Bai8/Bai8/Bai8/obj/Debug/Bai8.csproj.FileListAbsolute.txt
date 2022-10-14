@@ -77,3 +77,7 @@ D:\Documents\Documents\School\7th-semester\ASP.NET\Exercises\Bai8\Bai8\Bai8\obj\
 D:\Documents\Documents\School\7th-semester\ASP.NET\Exercises\Bai8\Bai8\Bai8\obj\Debug\Bai8.csproj.CopyComplete
 D:\Documents\Documents\School\7th-semester\ASP.NET\Exercises\Bai8\Bai8\Bai8\obj\Debug\Bai8.dll
 D:\Documents\Documents\School\7th-semester\ASP.NET\Exercises\Bai8\Bai8\Bai8\obj\Debug\Bai8.pdb
+D:\Documents\Documents\School\7th-semester\ASP.NET\Exercises\Bai8\Bai8\Bai8\bin\EntityFramework.dll
+D:\Documents\Documents\School\7th-semester\ASP.NET\Exercises\Bai8\Bai8\Bai8\bin\EntityFramework.SqlServer.dll
+D:\Documents\Documents\School\7th-semester\ASP.NET\Exercises\Bai8\Bai8\Bai8\bin\EntityFramework.xml
+D:\Documents\Documents\School\7th-semester\ASP.NET\Exercises\Bai8\Bai8\Bai8\bin\EntityFramework.SqlServer.xml
